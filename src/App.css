@@ -1,0 +1,100 @@
+body {
+  background: url(14.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Marcellus SC', serif;
+  color: #260B12; }
+
+.App {
+  text-align: center; }
+
+.Board {
+  background-color: #243C63;
+  margin: 50px auto 50px auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px; }
+
+.Board.small {
+  width: 600px;
+  height: 445px; }
+
+.Board.medium {
+  width: 840px;
+  height: 685px; }
+
+.Board.large {
+  width: 1200px;
+  height: 1045px; }
+
+.Cell {
+  width: 10px;
+  height: 10px;
+  margin: 1px 1px 1px 1px;
+  float: left;
+  padding: 0 0 0 0; }
+
+.Cell:hover {
+  cursor: pointer; }
+
+.infant {
+  background-color: #E1ADBA; }
+
+.dead {
+  background-color: #260B12; }
+
+.alive {
+  background-color: #B43757; }
+
+.boardTitle {
+  width: 100%; }
+
+.icons {
+  margin: auto 15px 15px 15px;
+  color: #B48A95; }
+
+.icons:hover {
+  cursor: pointer; }
+
+.icons:active, .icons:target {
+  color: #B43757; }
+
+.play, .pause, .clear, .random {
+  float: left; }
+
+.fields {
+  clear: both; }
+
+.plus {
+  display: inline;
+  margin: auto 5px 5px 5px; }
+
+.speedAdj {
+  display: inline;
+  float: left;
+  padding: 10px 5px 5px 5px; }
+
+.sizeAdj {
+  display: inline;
+  float: right;
+  padding: 10px 5px 5px 5px; }
+
+.bottom {
+  display: inline;
+  width: 100%;
+  padding: 10px 15px 5px 5px;
+  font-size: 18px; }
+
+.generationCount {
+  float: right;
+  padding: 0px 15px 5px 5px;
+  font-size: 20px; }
+
+.title {
+  font-size: 40px;
+  font-style: oblique;
+  margin: 70px auto 0px auto; }
+
+.text {
+  color: #B48A95; }
